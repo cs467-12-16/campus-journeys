@@ -1,0 +1,75 @@
+<html>
+<head>
+    <title>Campus Journeys</title>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css"></link>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"></link>
+</head>
+<body>
+    <h1 class="text-center">Campus Journeys</h1>
+    <p class="text-center">Ran Meng, Varun Munjeti, Emily Chao</p>
+    <div class="col-md-10 col-sm-offset-1">
+        <div class="row">
+            <div class="col-md-12">
+                <p>The goal of our visualization is to show how students move about campus for classes, both in theory and in practice.</p>
+                <p>In theory, we look at the suggested course sequences proposed by departments for their B.A. or B.S. students and correlate this course data with the courses' locations and times found at <a href="http://courses.illinois.edu" target="_blank">courses.illinois.edu</a>.</p>
+                <p>In practice, we look at a variety of different students' actual schedules and paths about campus and try to infer any deviations that they may take from the suggested sequences. Perhaps they are doing a minor, or they don't go to class, or they decide to take things slow.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <ul class="nav nav-tabs">
+                    <li role="presentation" class="active"><a href="#" onclick="showSuggested()">Suggested</a></li>
+                    <!--<li role="presentation"><a href="#" onclick="showActual()">Actual</a></li>-->
+                </ul>
+            </div>
+        </div>
+        <br/>
+        <div class="row">
+            <div class="col-md-12">
+                <form class="form-inline">
+                    <div class="form-group">
+                        <label for="year">Year</label>
+                        <select class="form-control" name="year" id="year">
+                            <option value="1">Freshman</option>
+                            <option value="2">Sophomore</option>
+                            <option value="3">Junior</option>
+                            <option value="4">Senior</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="semester">Semester</label>
+                        <select class="form-control" name="semester" id="semester">
+                            <option value="F">Fall</option>
+                            <option value="S">Spring</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="major">Major</label>
+                        <select class="form-control" name="major" id="major">
+                            <option value="cs">Computer Science</option>
+                            <option value="ce">Computer Engineering</option>
+                            <option value="ee">Electrical Engineering</option>
+                            <option value="act">Actuarial Science</option>
+                        </select>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-8">
+                <div id="map"></div>
+            </div>
+            <div class="col-md-4">
+                <p>Sample Schedule</p>
+                <table id="schedule"></table>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-2.2.1.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAKo2c7zAuSMQMJEpsh0oNOtF9LPJURkBY&callback=initMap"></script>
+</body>
+</html>

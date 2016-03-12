@@ -54,6 +54,13 @@
                             <option value="act">Actuarial Science</option>
                         </select>
                     </div>
+                    <div class="form-group">
+                        <label for="time">Day of the Week</label>
+                        <input type="range" value="3" min="1", max="7" step="1" oninput="showDay(value)"></input>
+                    </div>
+                    <div class="form-group">
+                        <span id="currentDay"></span>
+                    </div>
                 </form>
             </div>
         </div>

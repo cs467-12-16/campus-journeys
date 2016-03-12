@@ -7,3 +7,13 @@ function initMap() {
         },
     });
 }
+
+var daysOfTheWeek = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
+
+function showDay(value) {
+    $('#currentDay').text(daysOfTheWeek[value-1]);
+}
+
+$(document).ready(function() {
+    showDay(3);
+});

@@ -56,7 +56,7 @@
                     </div>
                     <div class="form-group">
                         <label for="time">Day of the Week</label>
-                        <input type="range" value="3" min="1", max="7" step="1" oninput="showDay(value)" id="day"></input>
+                        <input type="range" value="1" min="1", max="5" step="1" oninput="showDay(value)" id="day" onchange="getSuggested()"></input>
                     </div>
                     <div class="form-group">
                         <span id="currentDay"></span>

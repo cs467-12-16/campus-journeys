@@ -35,14 +35,13 @@ function parseData(data) {
                         c = classes[i];
                         $('#schedule').append('<li class="list-group-item">' + c.section + ' ' + c.number + '</li>');
                         var day = days[$('#day').val() - 1];
-                        if (c.locations[day] !== undefined) {
+                        if (c.locations !== undefined && c.locations[day] !== undefined) {
                             for (var cl in c.locations[day]) {
                                 var place = c.locations[day][cl].place;
                                 if (place !== undefined)
                                     places[place] += 1 / c.locations[day].length;
                             }
                         }
-                        console.log(places);
                     }
                     for (var t in places) {
                         rectangles[t].setOptions({

@@ -1,0 +1,186 @@
+{
+    "1": {
+        "S": [
+            {
+                "section": "ECE",
+                "number": 120
+            },
+            {
+                "section": "MATH",
+                "number": 231
+            },
+            {
+                "section": "ECON",
+                "number": 102
+            },
+            {
+                "section": "PHYS",
+                "number": 211
+            },
+            {
+                "section": "PSYC",
+                "number": 100
+            }
+        ],
+        "F": [
+            {
+                "section": "CHEM",
+                "number": 102
+            },
+            {
+                "section": "CHEM",
+                "number": 103
+            },
+            {
+                "section": "MATH",
+                "number": 221
+            },
+            {
+                "section": "RHET",
+                "number": 105
+            },
+            {
+                "section": "ENG",
+                "number": 100
+            },
+            {
+                "section": "ECE",
+                "number": 110
+            }
+        ]
+    },
+    "2": {
+        "S": [
+            {
+                "section": "PHYS",
+                "number": 213
+            },
+            {
+                "section": "PHYS",
+                "number": 214
+            },
+            {
+                "section": "ECE",
+                "number": 210
+            },
+            {
+                "section": "MATH",
+                "number": 286
+            },
+            {
+                "section": "ECON",
+                "number": 103
+            }
+        ],
+        "F": [
+            {
+                "section": "MATH",
+                "number": 241
+            },
+            {
+                "section": "PHYS",
+                "number": 212
+            },
+            {
+                "section": "ECE",
+                "number": 220
+            },
+            {
+                "section": "HIST",
+                "number": 100
+            }
+        ]
+    },
+    "3": {
+        "S": [
+            {
+                "section": "ECE",
+                "number": 340
+            },
+            {
+                "section": "ECE",
+                "number": 385
+            },
+            {
+                "section": "ECE",
+                "number": 418
+            },
+            {
+                "section": "ECE",
+                "number": 463
+            },
+            {
+                "section": "HIST",
+                "number": 106
+            }
+        ],
+        "F": [
+            {
+                "section": "ECE",
+                "number": 313
+            },
+            {
+                "section": "ECE",
+                "number": 329
+            },
+            {
+                "section": "HIST",
+                "number": 172
+            },
+            {
+                "section": "ECE",
+                "number": 417
+            },
+            {
+                "section": "ECE",
+                "number": 422
+            }
+        ]
+    },
+    "4": {
+        "S": [
+            {
+                "section": "ECE",
+                "number": 498
+            },
+            {
+                "section": "ECE",
+                "number": 391
+            },
+            {
+                "section": "ECE",
+                "number": 402
+            },
+            {
+                "section": "ECE",
+                "number": 411
+            },
+            {
+                "section": "ECE",
+                "number": 414
+            }
+        ],
+        "F": [
+            {
+                "section": "ECE",
+                "number": 445
+            },
+            {
+                "section": "ECE",
+                "number": 428
+            },
+            {
+                "section": "ECE",
+                "number": 403
+            },
+            {
+                "section": "ECE",
+                "number": 472
+            },
+            {
+                "section": "MATH",
+                "number": 461
+            }
+        ]
+    }
+}

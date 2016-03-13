@@ -1,0 +1,158 @@
+{
+    "1": {
+        "S": [
+            {
+                "section": "CS",
+                "number": 101
+            },
+            {
+                "section": "MATH",
+                "number": 231
+            },
+            {
+                "section": "ECON",
+                "number": 103
+            },
+            {
+                "section": "PHYS",
+                "number": 211
+            }
+        ],
+        "F": [
+            {
+                "section": "MATH",
+                "number": 221
+            },
+            {
+                "section": "ECON",
+                "number": 102
+            },
+            {
+                "section": "PSYC",
+                "number": 100
+            },
+            {
+                "section": "HIST",
+                "number": 100
+            }
+        ]
+    },
+    "2": {
+        "S": [
+            {
+                "section": "MATH",
+                "number": 408
+            },
+            {
+                "section": "ACCY",
+                "number": 200
+            },
+            {
+                "section": "STAT",
+                "number": 400
+            },
+            {
+                "section": "ECON",
+                "number": 203
+            }
+        ],
+        "F": [
+            {
+                "section": "MATH",
+                "number": 241
+            },
+            {
+                "section": "MATH",
+                "number": 210
+            },
+            {
+                "section": "HIST",
+                "number": 172
+            },
+            {
+                "section": "SPAN",
+                "number": 141
+            },
+            {
+                "section": "ECON",
+                "number": 202
+            }
+        ]
+    },
+    "3": {
+        "S": [
+            {
+                "section": "MATH",
+                "number": 472
+            },
+            {
+                "section": "MATH",
+                "number": 410
+            },
+            {
+                "section": "FIN",
+                "number": 300
+            },
+            {
+                "section": "ECON",
+                "number": 220
+            }
+        ],
+        "F": [
+            {
+                "section": "MATH",
+                "number": 409
+            },
+            {
+                "section": "MATH",
+                "number": 471
+            },
+            {
+                "section": "FIN",
+                "number": 230
+            },
+            {
+                "section": "FIN",
+                "number": 221
+            }
+        ]
+    },
+    "4": {
+        "S": [
+            {
+                "section": "MATH",
+                "number": 478
+            },
+            {
+                "section": "MATH",
+                "number": 469
+            }
+        ],
+        "F": [
+            {
+                "section": "MATH",
+                "number": 476
+            },
+            {
+                "section": "FIN",
+                "number": 321
+            },
+            {
+                "section": "PHYS",
+                "number": 212
+            },
+            {
+                "section": "ECON",
+                "number": 302
+            },
+            {
+                "section": "ECON",
+                "number": 303
+            },
+            {
+                "section": "ECON",
+                "number": 420
+            }
+        ]
+    }
+}

@@ -1,0 +1,186 @@
+{
+    "1": {
+        "S": [
+            {
+                "section": "CS",
+                "number": 173
+            },
+            {
+                "section": "MATH",
+                "number": 231
+            },
+            {
+                "section": "ECON",
+                "number": 102
+            },
+            {
+                "section": "PHYS",
+                "number": 211
+            },
+            {
+                "section": "PSYC",
+                "number": 100
+            }
+        ],
+        "F": [
+            {
+                "section": "CHEM",
+                "number": 102
+            },
+            {
+                "section": "CHEM",
+                "number": 103
+            },
+            {
+                "section": "MATH",
+                "number": 221
+            },
+            {
+                "section": "RHET",
+                "number": 105
+            },
+            {
+                "section": "CS",
+                "number": 100
+            },
+            {
+                "section": "CS",
+                "number": 125
+            },
+            {
+                "section": "ENG",
+                "number": 100
+            }
+        ]
+    },
+    "2": {
+        "S": [
+            {
+                "section": "CS",
+                "number": 241
+            },
+            {
+                "section": "CS",
+                "number": 233
+            },
+            {
+                "section": "MATH",
+                "number": 415
+            },
+            {
+                "section": "PHYS",
+                "number": 214
+            },
+            {
+                "section": "HIST",
+                "number": 120
+            }
+        ],
+        "F": [
+            {
+                "section": "CS",
+                "number": 225
+            },
+            {
+                "section": "MATH",
+                "number": 241
+            },
+            {
+                "section": "PHYS",
+                "number": 212
+            },
+            {
+                "section": "HIST",
+                "number": 100
+            }
+        ]
+    },
+    "3": {
+        "S": [
+            {
+                "section": "STAT",
+                "number": 400
+            },
+            {
+                "section": "CS",
+                "number": 418
+            },
+            {
+                "section": "CS",
+                "number": 465
+            },
+            {
+                "section": "CS",
+                "number": 411
+            },
+            {
+                "section": "CS",
+                "number": 357
+            }
+        ],
+        "F": [
+            {
+                "section": "CS",
+                "number": 210
+            },
+            {
+                "section": "CS",
+                "number": 242
+            },
+            {
+                "section": "CS",
+                "number": 374
+            },
+            {
+                "section": "HIST",
+                "number": 172
+            },
+            {
+                "section": "ECON",
+                "number": 103
+            }
+        ]
+    },
+    "4": {
+        "S": [
+            {
+                "section": "CS",
+                "number": 493
+            },
+            {
+                "section": "CS",
+                "number": 467
+            },
+            {
+                "section": "CS",
+                "number": 412
+            },
+            {
+                "section": "MATH",
+                "number": 461
+            },
+            {
+                "section": "CS",
+                "number": 412
+            }
+        ],
+        "F": [
+            {
+                "section": "CS",
+                "number": 421
+            },
+            {
+                "section": "CS",
+                "number": 440
+            },
+            {
+                "section": "CS",
+                "number": 461
+            },
+            {
+                "section": "CS",
+                "number": 492
+            }
+        ]
+    }
+}

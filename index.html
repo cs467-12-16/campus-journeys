@@ -31,7 +31,7 @@
                 <form class="form-inline">
                     <div class="form-group">
                         <label for="year">Year</label>
-                        <select class="form-control" name="year" id="year">
+                        <select class="form-control" name="year" id="year" onchange="getSuggested()">
                             <option value="1">Freshman</option>
                             <option value="2">Sophomore</option>
                             <option value="3">Junior</option>
@@ -40,14 +40,14 @@
                     </div>
                     <div class="form-group">
                         <label for="semester">Semester</label>
-                        <select class="form-control" name="semester" id="semester">
+                        <select class="form-control" name="semester" id="semester" onchange="getSuggested()">
                             <option value="F">Fall</option>
                             <option value="S">Spring</option>
                         </select>
                     </div>
                     <div class="form-group">
                         <label for="major">Major</label>
-                        <select class="form-control" name="major" id="major">
+                        <select class="form-control" name="major" id="major" onchange="getSuggested()">
                             <option value="cs">Computer Science</option>
                             <option value="ce">Computer Engineering</option>
                             <option value="ee">Electrical Engineering</option>
@@ -56,7 +56,7 @@
                     </div>
                     <div class="form-group">
                         <label for="time">Day of the Week</label>
-                        <input type="range" value="3" min="1", max="7" step="1" oninput="showDay(value)"></input>
+                        <input type="range" value="3" min="1", max="7" step="1" oninput="showDay(value)" id="day"></input>
                     </div>
                     <div class="form-group">
                         <span id="currentDay"></span>
@@ -70,7 +70,8 @@
             </div>
             <div class="col-md-4">
                 <p>Sample Schedule</p>
-                <table id="schedule"></table>
+                <ul id="schedule" class="list-group">
+                </ul>
             </div>
         </div>
     </div>

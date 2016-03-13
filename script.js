@@ -2,16 +2,6 @@ var map;
 
 var rectangles = {};
 
-function initMap() {
-    map = new google.maps.Map(document.getElementById('map'), {
-        zoom: 15,
-        center: {
-            lat: 40.106483,
-            lng: -88.2229657
-        },
-    });
-}
-
 var daysOfTheWeek = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'];
 var days = ['M', 'T', 'W', 'R', 'F'];
 
@@ -78,11 +68,21 @@ function initializeRectangles() {
                 }
             });
         }
+        getSuggested();
     });
+}
+
+function initMap() {
+    map = new google.maps.Map(document.getElementById('map'), {
+        zoom: 15,
+        center: {
+            lat: 40.106483,
+            lng: -88.2229657
+        },
+    });
+    initializeRectangles();
 }
 
 $(document).ready(function() {
     showDay(1);
-    initializeRectangles();
-    getSuggested();
 });

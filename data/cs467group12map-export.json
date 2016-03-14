@@ -1,0 +1,5346 @@
+{
+  "data" : {
+    "9pExH4qLs2MtJGr" : {
+      "addlMajors" : [ "" ],
+      "addlMinors" : [ "Mathematics" ],
+      "apib" : "yes",
+      "major" : "Computer Engineering - ENG",
+      "requiresDoubleMajor" : "no",
+      "type" : "user",
+      "year" : "senior"
+    },
+    "DEwL0DnDrHLsptD" : {
+      "addlMajors" : [ "" ],
+      "addlMinors" : [ "" ],
+      "apib" : "no",
+      "major" : "Graphic Design - FAA",
+      "requiresDoubleMajor" : "no",
+      "type" : "user",
+      "year" : "senior"
+    },
+    "DLLpHDnxtpquLsx" : {
+      "addlMajors" : [ "" ],
+      "addlMinors" : [ "" ],
+      "apib" : "yes",
+      "major" : "Computer Science - ENG",
+      "requiresDoubleMajor" : "no",
+      "type" : "google",
+      "year" : "junior"
+    },
+    "EGEJGCE5KtFtH2K" : {
+      "addlMajors" : [ "" ],
+      "addlMinors" : [ "" ],
+      "apib" : "yes",
+      "locations" : {
+        "-KCiMR_tj3--rMCG19Dr" : {
+          "end" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Mon Mar 07 2016 10:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "location" : "Gregory Hall",
+          "start" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Mon Mar 07 2016 09:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "type" : "class"
+        },
+        "-KCiMRa5cICwUqF_0832" : {
+          "end" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Mon Mar 07 2016 11:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "location" : "Loomis",
+          "start" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Mon Mar 07 2016 10:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "type" : "class"
+        },
+        "-KCiMRa8RP9uurExW1_X" : {
+          "end" : {
+            "_ambigTime" : false,
+            "_ambigZone" : true,
+            "_fullCalendar" : true,
+            "_i" : "Mon Mar 07 2016 14:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "location" : "Ceramics Building",
+          "start" : {
+            "_ambigTime" : false,
+            "_ambigZone" : true,
+            "_fullCalendar" : true,
+            "_i" : "Mon Mar 07 2016 11:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "type" : "study"
+        },
+        "-KCiMRaBFT3D6aIYSdBC" : {
+          "end" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Mon Mar 07 2016 16:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "location" : "Loomis",
+          "start" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Mon Mar 07 2016 14:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "type" : "class"
+        },
+        "-KCiMRaEVK8pGPWcUFEX" : {
+          "end" : {
+            "_ambigZone" : true,
+            "_fullCalendar" : true,
+            "_i" : "Tue Mar 08 2016 00:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "location" : "Urbana",
+          "start" : {
+            "_ambigZone" : true,
+            "_fullCalendar" : true,
+            "_i" : "Mon Mar 07 2016 16:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "type" : "other"
+        },
+        "-KCiMRaImi968BogM0fR" : {
+          "end" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Mon Mar 07 2016 22:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "location" : "CRCE",
+          "start" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Mon Mar 07 2016 20:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "type" : "fun"
+        },
+        "-KCiMRaMXMbYt3JvjL78" : {
+          "end" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Tue Mar 08 2016 00:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "location" : "Urbana",
+          "start" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Mon Mar 07 2016 22:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "type" : "other"
+        },
+        "-KCiMRaOr-HD2IzB2Rzd" : {
+          "end" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Mon Mar 07 2016 09:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "location" : "Urbana",
+          "start" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Mon Mar 07 2016 00:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "type" : "other"
+        },
+        "-KCiMRaQGGJOauY3h80N" : {
+          "end" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Tue Mar 08 2016 09:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "location" : "Einstein Bagels (University Ave)",
+          "start" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Tue Mar 08 2016 07:30:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "type" : "fun"
+        },
+        "-KCiMRaUGahjYSQ1pKdy" : {
+          "end" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Tue Mar 08 2016 11:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "location" : "Transportation Building",
+          "start" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Tue Mar 08 2016 09:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "type" : "class"
+        },
+        "-KCiMRaYvnho8_Q6tH9-" : {
+          "end" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Tue Mar 08 2016 13:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "location" : "MEL",
+          "start" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Tue Mar 08 2016 11:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "type" : "study"
+        },
+        "-KCiMRaZdeHvKgZNhsQZ" : {
+          "end" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Tue Mar 08 2016 15:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "location" : "Loomis",
+          "start" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Tue Mar 08 2016 13:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "type" : "class"
+        },
+        "-KCiMRabW3v6gmu1JOap" : {
+          "end" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Tue Mar 08 2016 16:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "location" : "Urbana",
+          "start" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Tue Mar 08 2016 15:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "type" : "other"
+        },
+        "-KCiMRafovC6nn-of5G0" : {
+          "end" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Tue Mar 08 2016 17:30:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "location" : "Krannert",
+          "start" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Tue Mar 08 2016 16:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "type" : "class"
+        },
+        "-KCiMRah8URp6akQ87eI" : {
+          "end" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Tue Mar 08 2016 18:30:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "location" : "Urbana",
+          "start" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Tue Mar 08 2016 17:30:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "type" : "other"
+        },
+        "-KCiMRaj46QsoYEaey0j" : {
+          "end" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Tue Mar 08 2016 21:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "location" : "Champaign",
+          "start" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Tue Mar 08 2016 18:30:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "type" : "rso"
+        },
+        "-KCiMRamBv2JR105W6sl" : {
+          "end" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Wed Mar 09 2016 00:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "location" : "Urbana",
+          "start" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Tue Mar 08 2016 21:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "type" : "other"
+        },
+        "-KCiMRaofAjs1Tx2dUb5" : {
+          "end" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Tue Mar 08 2016 07:30:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "location" : "Urbana",
+          "start" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Tue Mar 08 2016 00:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "type" : "other"
+        },
+        "-KCiMRaqwcKXig0tKlg_" : {
+          "end" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Wed Mar 09 2016 10:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "location" : "Gregory Hall",
+          "start" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Wed Mar 09 2016 09:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "type" : "class"
+        },
+        "-KCiMRaw9cV5-oAjgJiA" : {
+          "end" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Wed Mar 09 2016 11:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "location" : "Loomis",
+          "start" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Wed Mar 09 2016 10:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "type" : "class"
+        },
+        "-KCiMRayAuMchYlMj8o9" : {
+          "end" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Fri Mar 11 2016 10:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "location" : "Gregory Hall",
+          "start" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Fri Mar 11 2016 09:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "type" : "class"
+        },
+        "-KCiMRb-p0n7KUwrAy3h" : {
+          "end" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Fri Mar 11 2016 11:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "location" : "Loomis",
+          "start" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Fri Mar 11 2016 10:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "type" : "class"
+        },
+        "-KCiMRb1gmrtmIXmWgT6" : {
+          "end" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Wed Mar 09 2016 09:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "location" : "Urbana",
+          "start" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Wed Mar 09 2016 00:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "type" : "other"
+        },
+        "-KCiMRb7LyWno-IJgSEd" : {
+          "end" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Wed Mar 09 2016 12:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "location" : "Ceramics Building",
+          "start" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Wed Mar 09 2016 11:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "type" : "study"
+        },
+        "-KCiMRb9b6y5OyQV1Y-k" : {
+          "end" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Wed Mar 09 2016 13:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "location" : "Transportation Building",
+          "start" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Wed Mar 09 2016 12:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "type" : "class"
+        },
+        "-KCiMRbA9g6VbbNT1Pt7" : {
+          "end" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Thu Mar 10 2016 09:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "location" : "Champaign",
+          "start" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Thu Mar 10 2016 07:30:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "type" : "other"
+        },
+        "-KCiMRbB2ZrEvjPvHAEE" : {
+          "end" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Thu Mar 10 2016 10:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "location" : "Transportation Building",
+          "start" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Thu Mar 10 2016 09:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "type" : "class"
+        },
+        "-KCiMRbG0NKS1z2fs7Xy" : {
+          "end" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Thu Mar 10 2016 15:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "location" : "MEB",
+          "start" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Thu Mar 10 2016 14:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "type" : "other"
+        },
+        "-KCiMRbIg_C19hVx7HAG" : {
+          "end" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Thu Mar 10 2016 16:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "location" : "Urbana",
+          "start" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Thu Mar 10 2016 15:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "type" : "other"
+        },
+        "-KCiMRbMXgrc2YLUZpbP" : {
+          "end" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Thu Mar 10 2016 17:30:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "location" : "Krannert",
+          "start" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Thu Mar 10 2016 16:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "type" : "class"
+        },
+        "-KCiMRbOxc7wlA0FTHoe" : {
+          "end" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Fri Mar 11 2016 00:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "location" : "Urbana",
+          "start" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Thu Mar 10 2016 17:30:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "type" : "other"
+        },
+        "-KCiMRbSuRapI5BFzZ6t" : {
+          "end" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Thu Mar 10 2016 07:30:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "location" : "Urbana",
+          "start" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Thu Mar 10 2016 00:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "type" : "other"
+        },
+        "-KCiMRbV1R-vdq8dDxIw" : {
+          "end" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Fri Mar 11 2016 13:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "location" : "Ceramics Building",
+          "start" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Fri Mar 11 2016 11:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "type" : "study"
+        },
+        "-KCiMRbXjd_wHmBtidHw" : {
+          "end" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Fri Mar 11 2016 14:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "location" : "MEB",
+          "start" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Fri Mar 11 2016 13:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "type" : "class"
+        },
+        "-KCiMRbZ460v8WZUZae5" : {
+          "end" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Mon Mar 07 2016 14:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "location" : "MEB",
+          "start" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Mon Mar 07 2016 13:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "type" : "class"
+        },
+        "-KCiMRbbthBs_qIdmQ_J" : {
+          "end" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Wed Mar 09 2016 14:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "location" : "MEB",
+          "start" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Wed Mar 09 2016 13:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "type" : "class"
+        },
+        "-KCiMRbcKGHi9NLEvFzO" : {
+          "end" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Fri Mar 11 2016 15:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "location" : "Champaign",
+          "start" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Fri Mar 11 2016 14:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "type" : "fun"
+        },
+        "-KCiMRbe3NEfV-dIH0Tm" : {
+          "end" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Fri Mar 11 2016 16:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "location" : "Urbana",
+          "start" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Fri Mar 11 2016 15:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "type" : "other"
+        },
+        "-KCiMRbf_3urZSg9RABT" : {
+          "end" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Fri Mar 11 2016 18:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "location" : "Champaign",
+          "start" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Fri Mar 11 2016 16:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "type" : "fun"
+        },
+        "-KCiMRbiy5EoiTyANx_6" : {
+          "end" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Sat Mar 12 2016 00:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "location" : "Urbana",
+          "start" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Fri Mar 11 2016 18:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "type" : "other"
+        },
+        "-KCiMRbkpsLe1FZ-mc5H" : {
+          "end" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Fri Mar 11 2016 09:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "location" : "Urbana",
+          "start" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Fri Mar 11 2016 00:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "type" : "other"
+        },
+        "-KCiMRblRtc6SR4PkJqd" : {
+          "end" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Thu Mar 10 2016 14:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "location" : "MEL",
+          "start" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Thu Mar 10 2016 10:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "type" : "study"
+        },
+        "-KCiMRbn0ayjGPWVyqwS" : {
+          "end" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Thu Mar 10 2016 00:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "location" : "Urbana",
+          "start" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Wed Mar 09 2016 14:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "type" : "study"
+        },
+        "-KCiMRboaV369qkvo14O" : {
+          "end" : {
+            "_ambigTime" : false,
+            "_ambigZone" : true,
+            "_fullCalendar" : true,
+            "_i" : "Sun Mar 06 2016 09:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "location" : "Urbana",
+          "start" : {
+            "_ambigTime" : false,
+            "_ambigZone" : true,
+            "_fullCalendar" : true,
+            "_i" : "Sun Mar 06 2016 00:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "type" : "sleep"
+        },
+        "-KCiMRbrwLLOG_8752I5" : {
+          "end" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Sun Mar 06 2016 12:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "location" : "Armory",
+          "start" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Sun Mar 06 2016 10:30:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "type" : "other"
+        },
+        "-KCiMRbu3_f8WwUX-QSS" : {
+          "end" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Sun Mar 06 2016 17:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "location" : "Urbana",
+          "start" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Sun Mar 06 2016 12:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "type" : "other"
+        },
+        "-KCiMRbwJ16Cw_O-dPam" : {
+          "end" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Sun Mar 06 2016 18:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "location" : "Urbana",
+          "start" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Sun Mar 06 2016 17:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "type" : "other"
+        },
+        "-KCiMRbxcpy5h5cAq95v" : {
+          "end" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Mon Mar 07 2016 00:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "location" : "Urbana",
+          "start" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Sun Mar 06 2016 18:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "type" : "other"
+        },
+        "-KCiMRbzb69BmMtZhp2W" : {
+          "end" : {
+            "_ambigTime" : false,
+            "_ambigZone" : true,
+            "_fullCalendar" : true,
+            "_i" : "Sat Mar 12 2016 01:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "location" : "Urbana",
+          "start" : {
+            "_ambigTime" : false,
+            "_ambigZone" : true,
+            "_fullCalendar" : true,
+            "_i" : "Sat Mar 12 2016 00:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "type" : "other"
+        },
+        "-KCiMRc0R16kFzm-kzxs" : {
+          "end" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Sat Mar 12 2016 17:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "location" : "Urbana",
+          "start" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Sat Mar 12 2016 11:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "type" : "other"
+        },
+        "-KCiMRc2ADMQ0QWDeBuf" : {
+          "end" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Sat Mar 12 2016 20:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "location" : "Urbana",
+          "start" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Sat Mar 12 2016 17:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "type" : "fun"
+        },
+        "-KCiMRc4DNEuLk5hZAQF" : {
+          "end" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Sun Mar 13 2016 00:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "location" : "Urbana",
+          "start" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Sat Mar 12 2016 20:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "type" : "other"
+        }
+      },
+      "major" : "General Engineering - ENG",
+      "requiresDoubleMajor" : "no",
+      "type" : "user",
+      "year" : "senior"
+    },
+    "EqG8o3nDDMoHr8M" : {
+      "addlMajors" : [ "" ],
+      "addlMinors" : [ "" ],
+      "apib" : "yes",
+      "locations" : {
+        "-KCbiTgjsYmzuYKwYe11" : {
+          "end" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Sun Mar 06 2016 10:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "location" : "Champaign",
+          "start" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Sun Mar 06 2016 00:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "type" : "sleep"
+        },
+        "-KCbiTgrWDDeZff1euYd" : {
+          "end" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Sun Mar 06 2016 17:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "location" : "Champaign",
+          "start" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Sun Mar 06 2016 10:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "type" : "study"
+        },
+        "-KCbiTgticr89hkBDx7f" : {
+          "end" : {
+            "_ambigZone" : true,
+            "_fullCalendar" : true,
+            "_i" : "Sun Mar 06 2016 18:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "location" : "Champaign",
+          "start" : {
+            "_ambigZone" : true,
+            "_fullCalendar" : true,
+            "_i" : "Sun Mar 06 2016 17:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "type" : "other"
+        },
+        "-KCbiTgwAiBaOuzIgZWi" : {
+          "end" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Sun Mar 06 2016 23:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "location" : "Grainger",
+          "start" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Sun Mar 06 2016 18:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "type" : "study"
+        },
+        "-KCbiTgzb40yooGDwKN6" : {
+          "end" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Mon Mar 07 2016 00:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "location" : "Champaign",
+          "start" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Sun Mar 06 2016 23:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "type" : "other"
+        },
+        "-KCbiTh4ZXvvsVOXat0T" : {
+          "end" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Mon Mar 07 2016 11:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "location" : "Champaign",
+          "start" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Mon Mar 07 2016 00:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "type" : "other"
+        },
+        "-KCbiTh7qVTaZV2FChtp" : {
+          "end" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Mon Mar 07 2016 12:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "location" : "English Building",
+          "start" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Mon Mar 07 2016 11:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "type" : "class"
+        },
+        "-KCbiTh9V0PkNsdo8gZ2" : {
+          "end" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Mon Mar 07 2016 14:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "location" : "Math Library",
+          "start" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Mon Mar 07 2016 12:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "type" : "study"
+        },
+        "-KCbiThFG4CXgxf9WMWS" : {
+          "end" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Mon Mar 07 2016 18:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "location" : "Siebel",
+          "start" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Mon Mar 07 2016 14:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "type" : "study"
+        },
+        "-KCbiThHzdKrO89yHnsW" : {
+          "end" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Mon Mar 07 2016 19:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "location" : "Green Street",
+          "start" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Mon Mar 07 2016 18:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "type" : "other"
+        },
+        "-KCbiThLeD_uhxdxehjN" : {
+          "end" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Tue Mar 08 2016 00:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "location" : "Siebel",
+          "start" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Mon Mar 07 2016 19:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "type" : "study"
+        },
+        "-KCbiThPif5IhzguIZoh" : {
+          "end" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Tue Mar 08 2016 11:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "location" : "Champaign",
+          "start" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Tue Mar 08 2016 00:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "type" : "other"
+        },
+        "-KCbiThTE9mwUSBAkNdL" : {
+          "end" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Tue Mar 08 2016 15:30:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "location" : "Math Library",
+          "start" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Tue Mar 08 2016 11:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "type" : "study"
+        },
+        "-KCbiThVEN6aPmOBpmKM" : {
+          "end" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Tue Mar 08 2016 18:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "location" : "Siebel",
+          "start" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Tue Mar 08 2016 15:30:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "type" : "class"
+        },
+        "-KCbiThW4aSt_RVlPMPO" : {
+          "end" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Tue Mar 08 2016 19:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "location" : "Green Street",
+          "start" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Tue Mar 08 2016 18:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "type" : "other"
+        },
+        "-KCbiThZpEZkTSU6FFkX" : {
+          "end" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Wed Mar 09 2016 00:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "location" : "Grainger",
+          "start" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Tue Mar 08 2016 19:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "type" : "study"
+        },
+        "-KCbiThczGMwu0L4Tb3d" : {
+          "end" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Wed Mar 09 2016 09:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "location" : "Champaign",
+          "start" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Wed Mar 09 2016 00:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "type" : "other"
+        },
+        "-KCbiThe7w3HoJSNCRgQ" : {
+          "end" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Wed Mar 09 2016 10:30:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "location" : "DCL",
+          "start" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Wed Mar 09 2016 09:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "type" : "class"
+        },
+        "-KCbiThfqyBqEzsCZe-h" : {
+          "end" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Wed Mar 09 2016 12:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "location" : "English Building",
+          "start" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Wed Mar 09 2016 11:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "type" : "class"
+        },
+        "-KCbiThiotaKYjc1iyyq" : {
+          "end" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Wed Mar 09 2016 14:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "location" : "Siebel",
+          "start" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Wed Mar 09 2016 12:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "type" : "other"
+        },
+        "-KCbiThmsnsA3z4FvLcY" : {
+          "end" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Wed Mar 09 2016 15:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "location" : "Siebel",
+          "start" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Wed Mar 09 2016 14:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "type" : "class"
+        },
+        "-KCbiThocGfcELmJSQjb" : {
+          "end" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Wed Mar 09 2016 18:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "location" : "Siebel",
+          "start" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Wed Mar 09 2016 15:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "type" : "study"
+        },
+        "-KCbiThqoxF-xYUW4bE6" : {
+          "end" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Thu Mar 10 2016 00:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "location" : "Champaign",
+          "start" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Wed Mar 09 2016 18:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "type" : "other"
+        },
+        "-KCbiThrByV6GuRFrl6j" : {
+          "end" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Thu Mar 10 2016 12:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "location" : "Champaign",
+          "start" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Thu Mar 10 2016 00:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "type" : "other"
+        },
+        "-KCbiThv8mcewzAI551t" : {
+          "end" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Thu Mar 10 2016 13:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "location" : "Siebel",
+          "start" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Thu Mar 10 2016 12:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "type" : "class"
+        },
+        "-KCbiThz0sGjKnP0pU3Z" : {
+          "end" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Thu Mar 10 2016 14:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "location" : "Siebel",
+          "start" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Thu Mar 10 2016 13:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "type" : "other"
+        },
+        "-KCbiTi1HwNS6M8BPuU7" : {
+          "end" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Thu Mar 10 2016 15:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "location" : "Green Street",
+          "start" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Thu Mar 10 2016 14:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "type" : "other"
+        },
+        "-KCbiTi2dkfeHJdnkuI0" : {
+          "end" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Thu Mar 10 2016 18:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "location" : "Siebel",
+          "start" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Thu Mar 10 2016 15:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "type" : "other"
+        },
+        "-KCbiTi539QzARC9AQcg" : {
+          "end" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Thu Mar 10 2016 21:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "location" : "Champaign",
+          "start" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Thu Mar 10 2016 18:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "type" : "other"
+        },
+        "-KCbiTi9ecWLuVw1n4gj" : {
+          "end" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Fri Mar 11 2016 00:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "location" : "Siebel",
+          "start" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Thu Mar 10 2016 21:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "type" : "study"
+        },
+        "-KCbiTiBOcTHU-6wThfJ" : {
+          "end" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Fri Mar 11 2016 09:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "location" : "Champaign",
+          "start" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Fri Mar 11 2016 00:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "type" : "other"
+        },
+        "-KCbiTiDah-J9P9cOOMK" : {
+          "end" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Fri Mar 11 2016 10:30:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "location" : "DCL",
+          "start" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Fri Mar 11 2016 09:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "type" : "class"
+        },
+        "-KCbiTiF460Re1loGxI2" : {
+          "end" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Fri Mar 11 2016 12:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "location" : "English Building",
+          "start" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Fri Mar 11 2016 11:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "type" : "class"
+        },
+        "-KCbiTiJl88c_sb67CO6" : {
+          "end" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Fri Mar 11 2016 14:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "location" : "Siebel",
+          "start" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Fri Mar 11 2016 12:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "type" : "other"
+        },
+        "-KCbiTiMyPTNHM7kkiKj" : {
+          "end" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Fri Mar 11 2016 15:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "location" : "Siebel",
+          "start" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Fri Mar 11 2016 14:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "type" : "class"
+        },
+        "-KCbiTiNorCxGT-W_019" : {
+          "end" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Fri Mar 11 2016 17:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "location" : "Legends",
+          "start" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Fri Mar 11 2016 16:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "type" : "fun"
+        },
+        "-KCbiTiPGehbzO6qytiM" : {
+          "end" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Fri Mar 11 2016 16:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "location" : "Siebel",
+          "start" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Fri Mar 11 2016 15:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "type" : "other"
+        },
+        "-KCbiTiREdOTZ5wC1xGM" : {
+          "end" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Sat Mar 12 2016 00:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "location" : "Champaign",
+          "start" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Fri Mar 11 2016 17:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "type" : "fun"
+        },
+        "-KCbiTiVXZBUT4oG-Yh9" : {
+          "end" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Sat Mar 12 2016 11:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "location" : "Champaign",
+          "start" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Sat Mar 12 2016 00:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "type" : "other"
+        },
+        "-KCbiTiXSXotWzq-sNNF" : {
+          "end" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Sat Mar 12 2016 17:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "location" : "Champaign",
+          "start" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Sat Mar 12 2016 11:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "type" : "study"
+        },
+        "-KCbiTibPcgYnCWdAwl-" : {
+          "end" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Sat Mar 12 2016 18:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "location" : "Champaign",
+          "start" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Sat Mar 12 2016 17:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "type" : "other"
+        },
+        "-KCbiTifiGa0zm2QjIT7" : {
+          "end" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Sun Mar 13 2016 00:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "location" : "Champaign",
+          "start" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Sat Mar 12 2016 18:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "type" : "other"
+        }
+      },
+      "major" : "Undeclared** - DGS",
+      "requiresDoubleMajor" : "no",
+      "type" : "user",
+      "year" : "sophomore"
+    },
+    "HCrKnxxr1J0pu6G" : {
+      "addlMajors" : [ "" ],
+      "addlMinors" : [ "" ],
+      "apib" : "yes",
+      "major" : "Computer Science - ENG",
+      "requiresDoubleMajor" : "no",
+      "type" : "google",
+      "year" : "junior"
+    },
+    "HDF4FqDGIuvFMx2" : {
+      "addlMajors" : [ "" ],
+      "addlMinors" : [ "" ],
+      "apib" : "no",
+      "major" : "Accountancy - BUS",
+      "requiresDoubleMajor" : "yes",
+      "type" : "user",
+      "year" : "freshman"
+    },
+    "nnJw9sGFLyIv5oL" : {
+      "addlMajors" : [ "" ],
+      "addlMinors" : [ "" ],
+      "apib" : "yes",
+      "major" : "Computer Science - ENG",
+      "requiresDoubleMajor" : "no",
+      "type" : "user",
+      "year" : "senior"
+    },
+    "oyL617yFJxGrDy7" : {
+      "addlMajors" : [ "" ],
+      "addlMinors" : [ "Art + Design", "Computer Science", "Informatics" ],
+      "apib" : "yes",
+      "major" : "Music - FAA",
+      "requiresDoubleMajor" : "no",
+      "type" : "user",
+      "year" : "senior"
+    },
+    "qstIrLxrMD0tKD2" : {
+      "addlMajors" : [ "" ],
+      "addlMinors" : [ "" ],
+      "apib" : "no",
+      "major" : "Computer Science - ENG",
+      "requiresDoubleMajor" : "no",
+      "type" : "user",
+      "year" : "junior"
+    },
+    "tEnnEyIKCrMpwn5" : {
+      "addlMajors" : [ "" ],
+      "addlMinors" : [ "" ],
+      "apib" : "no",
+      "major" : "Computer Science - ENG",
+      "requiresDoubleMajor" : "no",
+      "type" : "user",
+      "year" : "senior"
+    },
+    "x9uIzrvyvrnw1Ep" : {
+      "addlMajors" : [ "" ],
+      "addlMinors" : [ "" ],
+      "apib" : "yes",
+      "locations" : {
+        "-KCMWDbpf-AyK227jZ0I" : {
+          "end" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Wed Mar 09 2016 10:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "location" : "Siebel Center",
+          "start" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Wed Mar 09 2016 09:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "type" : "class"
+        },
+        "-KCMWDbv4QtzgBia4HL2" : {
+          "end" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Fri Mar 11 2016 10:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "location" : "Siebel Center",
+          "start" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Fri Mar 11 2016 09:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "type" : "class"
+        },
+        "-KCMWDbyMA5SSkQhqdS8" : {
+          "end" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Mon Mar 07 2016 15:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "location" : "Siebel Center",
+          "start" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Mon Mar 07 2016 14:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "type" : "class"
+        },
+        "-KCMWDc1pkGB2aPIuuIB" : {
+          "end" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Tue Mar 08 2016 12:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "location" : "ECEB",
+          "start" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Tue Mar 08 2016 11:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "type" : "class"
+        },
+        "-KCMWDc9JB-zaqv0s6Ip" : {
+          "end" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Thu Mar 10 2016 12:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "location" : "ECEB",
+          "start" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Thu Mar 10 2016 11:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "type" : "class"
+        },
+        "-KCMWDcD6c0WKUKC17eG" : {
+          "end" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Tue Mar 08 2016 13:30:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "location" : "Siebel Center",
+          "start" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Tue Mar 08 2016 12:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "type" : "class"
+        },
+        "-KCMWDcNxgEcZVvrWDJC" : {
+          "end" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Thu Mar 10 2016 13:30:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "location" : "Siebel Center",
+          "start" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Thu Mar 10 2016 12:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "type" : "class"
+        },
+        "-KCMWDcRxptXbhyL5ssg" : {
+          "end" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Fri Mar 11 2016 15:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "location" : "Siebel Center",
+          "start" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Fri Mar 11 2016 13:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "type" : "class"
+        },
+        "-KCMWDccllGlgaQE88BY" : {
+          "end" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Tue Mar 08 2016 15:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "location" : "DCL",
+          "start" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Tue Mar 08 2016 13:30:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "type" : "class"
+        },
+        "-KCMWDcfLIHgbQI-eLsD" : {
+          "end" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Thu Mar 10 2016 15:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "location" : "DCL",
+          "start" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Thu Mar 10 2016 13:30:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "type" : "class"
+        },
+        "-KCMWDcmkJ1rnZ23-2W5" : {
+          "end" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Fri Mar 11 2016 11:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "location" : "Loomis",
+          "start" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Fri Mar 11 2016 10:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "type" : "class"
+        },
+        "-KCMWDcrMUGZBunMoqas" : {
+          "end" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Wed Mar 09 2016 11:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "location" : "Loomis",
+          "start" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Wed Mar 09 2016 10:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "type" : "class"
+        },
+        "-KCMWDcwwWPgH5j__qsI" : {
+          "end" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Mon Mar 07 2016 11:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "location" : "Loomis",
+          "start" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Mon Mar 07 2016 10:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "type" : "class"
+        },
+        "-KCMWDd2k9DS1D4VH7qJ" : {
+          "end" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Mon Mar 07 2016 14:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "location" : "Loomis",
+          "start" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Mon Mar 07 2016 12:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "type" : "class"
+        },
+        "-KCMWDdEXt5CEmbFseIi" : {
+          "end" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Wed Mar 09 2016 14:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "location" : "Loomis",
+          "start" : {
+            "_ambigTime" : false,
+            "_ambigZone" : false,
+            "_fullCalendar" : true,
+            "_i" : "Wed Mar 09 2016 12:00:00 GMT+0000",
+            "_isAMomentObject" : true,
+            "_isUTC" : true,
+            "_isValid" : true,
+            "_locale" : {
+              "_fullCalendar_weekCalc" : "local"
+            },
+            "_offset" : 0,
+            "_pf" : {
+              "charsLeftOver" : 0,
+              "empty" : false,
+              "invalidFormat" : false,
+              "iso" : false,
+              "nullInput" : false,
+              "overflow" : -2,
+              "userInvalidated" : false
+            }
+          },
+          "type" : "class"
+        }
+      },
+      "major" : "Computer Science - ENG",
+      "requiresDoubleMajor" : "no",
+      "type" : "user",
+      "year" : "junior"
+    }
+  }
+}

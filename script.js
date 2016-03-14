@@ -1,4 +1,5 @@
 var map;
+var userMap;
 
 var rectangles = {};
 
@@ -6,83 +7,161 @@ var daysOfTheWeek = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'];
 var days = ['M', 'T', 'W', 'R', 'F'];
 
 function showDay(value) {
-    $('#currentDay').text(daysOfTheWeek[value-1]);
-    getSuggested();
+  $('#currentDay').text(daysOfTheWeek[value-1]);
+  getSuggested();
 }
 
 function parseData(data) {
-    $('#schedule').empty();
-    var places = {};
-    for(var p in rectangles) {
-        places[p] = 0;
-    }
-    for(var y in data) {
-        if (y == $('#year').val()) {
-            for (var s in data[y]) {
-                if (s == $('#semester').val()) {
-                    var classes = data[y][s];
-                    for (var i = 0; i < classes.length; i++) {
-                        c = classes[i];
-                        $('#schedule').append('<li class="list-group-item">' + c.section + ' ' + c.number + '</li>');
-                        var day = days[$('#day').val() - 1];
-                        if (c.locations !== undefined && c.locations[day] !== undefined) {
-                            for (var cl in c.locations[day]) {
-                                var place = c.locations[day][cl].place;
-                                if (place !== undefined)
-                                    places[place] += 1 / c.locations[day].length;
-                            }
-                        }
-                    }
-                    for (var t in places) {
-                        rectangles[t].setOptions({
-                            fillOpacity: places[t]
-                        });
-                    }
-                }
+  $('#schedule').empty();
+  var places = {};
+  for(var p in rectangles) {
+    places[p] = 0;
+  }
+  for(var y in data) {
+    if (y == $('#year').val()) {
+      for (var s in data[y]) {
+        if (s == $('#semester').val()) {
+          var classes = data[y][s];
+          for (var i = 0; i < classes.length; i++) {
+            c = classes[i];
+            $('#schedule').append('<li class="list-group-item">' + c.section + ' ' + c.number + '</li>');
+            var day = days[$('#day').val() - 1];
+            if (c.locations !== undefined && c.locations[day] !== undefined) {
+              for (var cl in c.locations[day]) {
+                var place = c.locations[day][cl].place;
+                if (place !== undefined)
+                  places[place] += 1 / c.locations[day].length;
+              }
             }
+          }
+          for (var t in places) {
+            if (rectangles[t]) {
+              rectangles[t].setOptions({
+                fillOpacity: places[t]
+              });
+            }
+          }
         }
+      }
     }
+  }
 }
 
 function getSuggested() {
-    $.getJSON('data/weekly/' + $('#major').val() + '_weekly.json', function(data) {
-        parseData(data);
-    });
+  $.getJSON('data/weekly/' + $('#major').val() + '_weekly.json', function(data) {
+    parseData(data);
+  });
 }
 
 function initializeRectangles() {
-    $.getJSON('data/locations.json', function(data) {
-        for(var classroom in data) {
-            rectangles[classroom] = new google.maps.Rectangle({
-                strokeColor: '#0000FF',
-                strokeOpacity: 0,
-                strokeWeight: 0,
-                fillColor: '#0000FF',
-                fillOpacity: 0,
-                map: map,
-                bounds: {
-                    north: data[classroom][0],
-                    south: data[classroom][2],
-                    east: data[classroom][1],
-                    west: data[classroom][3]
-                }
-            });
+  $.getJSON('data/locations.json', function(data) {
+    for(var classroom in data) {
+      rectangles[classroom] = new google.maps.Rectangle({
+        strokeColor: '#0000FF',
+        strokeOpacity: 0,
+        strokeWeight: 0,
+        fillColor: '#0000FF',
+        fillOpacity: 0,
+        map: map,
+        bounds: {
+          north: data[classroom][0],
+          south: data[classroom][2],
+          east: data[classroom][1],
+          west: data[classroom][3]
         }
-        getSuggested();
-    });
+      });
+    }
+    getSuggested();
+  });
 }
 
 function initMap() {
-    map = new google.maps.Map(document.getElementById('map'), {
-        zoom: 15,
-        center: {
-            lat: 40.106483,
-            lng: -88.2229657
-        },
-    });
-    initializeRectangles();
+  map = new google.maps.Map(document.getElementById('map'), {
+    zoom: 15,
+    center: {
+      lat: 40.106483,
+      lng: -88.2229657
+    },
+  });
+  initializeRectangles();
+  initMapActual();
 }
 
 $(document).ready(function() {
-    showDay(1);
+  showDay(1);
 });
+
+function showSuggested() {
+  $('#tabs a:first').tab('show')
+  $('#actual').removeClass('inline-block').addClass('hide');
+  $('#suggested').removeClass('hide').addClass('inline-block');
+  $('#user-major-select').removeClass('inline-block').addClass('hide');
+  $('#suggested-major-select').removeClass('hide').addClass('inline-block');
+  initializeRectangles();
+}
+
+function showActual() {
+  $('#tabs a:last').tab('show')
+  $('#suggested').removeClass('inline-block').addClass('hide');
+  $('#actual').removeClass('hide').addClass('inline-block');
+  $('#suggested-major-select').removeClass('inline-block').addClass('hide');
+  $('#user-major-select').removeClass('hide').addClass('inline-block');
+  initMapActual();
+}
+
+var userDataPoints = [];
+
+function initMapActual() {
+  userMap = new google.maps.Map(document.getElementById('user-map'), {
+    zoom: 15,
+    center: {
+      lat: 40.106483,
+      lng: -88.2229657
+    },
+  });
+  initializeActual();
+}
+
+function initializeActual() {
+  $.getJSON('./data/glh_parsed/merged_user_data.json', function(data) {
+    var year = $('#year').val();
+    var semester = $('#semester').val();
+    var major = $('#major').val();
+    setUserMajors(data, getUserDataByMajor);
+  });
+}
+
+function getUserDataByMajor(data, majors, callback) {
+  data = data.filter(function(person) {
+    return person && (majors.indexOf(person.major) !== -1);
+  })
+  callback(data);
+}
+
+function displayActual(data) {
+  console.log(data);
+}
+
+function setUserMajors(data, callback) {
+  var majors = data.map(function(user) {
+    if (user) return user.major;
+    else return null;
+  });
+  var $majorSelect = $('#user-major');
+  $majorSelect.empty();
+  majors = removeDuplicates(majors);
+  majors.forEach(function(major) {
+    if (major) {
+      var $option = '<option value="' + major + '">' + major + '</option>';
+      $majorSelect.append($option);
+    }
+  });
+  callback(data, majors, displayActual);
+}
+
+function removeDuplicates(array) {
+  var seen = {};
+  return array.filter(function(element) {
+    return seen.hasOwnProperty(element) ? false : (seen[element] = true);
+  });
+}

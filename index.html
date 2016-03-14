@@ -1,83 +1,95 @@
 <html>
 <head>
-    <title>Campus Journeys</title>
-    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="style.css"></link>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"></link>
+  <title>Campus Journeys</title>
+  <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css"></link>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"></link>
 </head>
 <body>
-    <h1 class="text-center">Campus Journeys</h1>
-    <p class="text-center">Ran Meng, Varun Munjeti, Emily Chao</p>
-    <div class="col-md-10 col-sm-offset-1">
-        <div class="row">
-            <div class="col-md-12">
-                <p>The goal of our visualization is to show how students move about campus for classes, both in theory and in practice.</p>
-                <p>In theory, we look at the suggested course sequences proposed by departments for their B.A. or B.S. students and correlate this course data with the courses' locations and times found at <a href="http://courses.illinois.edu" target="_blank">courses.illinois.edu</a>.</p>
-                <p>In practice, we look at a variety of different students' actual schedules and paths about campus and try to infer any deviations that they may take from the suggested sequences. Perhaps they are doing a minor, or they don't go to class, or they decide to take things slow.</p>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-12">
-                <ul class="nav nav-tabs">
-                    <li role="presentation" class="active"><a href="#" onclick="showSuggested()">Suggested</a></li>
-                    <li role="presentation"><a href="#" onclick="showActual()">Actual</a></li>
-                </ul>
-            </div>
-        </div>
-        <br/>
-        <div class="row">
-            <div class="col-md-12">
-                <form class="form-inline">
-                    <div class="form-group">
-                        <label for="year">Year</label>
-                        <select class="form-control" name="year" id="year" onchange="getSuggested()">
-                            <option value="1">Freshman</option>
-                            <option value="2">Sophomore</option>
-                            <option value="3">Junior</option>
-                            <option value="4">Senior</option>
-                        </select>
-                    </div>
-                    <div class="form-group">
-                        <label for="semester">Semester</label>
-                        <select class="form-control" name="semester" id="semester" onchange="getSuggested()">
-                            <option value="F">Fall</option>
-                            <option value="S">Spring</option>
-                        </select>
-                    </div>
-                    <div class="form-group">
-                        <label for="major">Major</label>
-                        <select class="form-control" name="major" id="major" onchange="getSuggested()">
-                            <option value="cs">Computer Science</option>
-                            <option value="ce">Computer Engineering</option>
-                            <option value="ee">Electrical Engineering</option>
-                            <option value="act">Actuarial Science</option>
-                        </select>
-                    </div>
-                    <div class="form-group">
-                        <label for="time">Day of the Week</label>
-                        <input type="range" value="1" min="1", max="5" step="1" oninput="showDay(value)" id="day" onchange="getSuggested()"></input>
-                    </div>
-                    <div class="form-group">
-                        <span id="currentDay"></span>
-                    </div>
-                </form>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-8">
-                <div id="map"></div>
-            </div>
-            <div class="col-md-4">
-                <p>Sample Schedule</p>
-                <ul id="schedule" class="list-group">
-                </ul>
-            </div>
-        </div>
+  <h1 class="text-center">Campus Journeys</h1>
+  <p class="text-center">Ran Meng, Varun Munjeti, Emily Chao</p>
+  <div class="col-md-10 col-sm-offset-1">
+    <div class="row">
+      <div class="col-md-12">
+        <p>The goal of our visualization is to show how students move about campus for classes, both in theory and in practice.</p>
+        <p>In theory, we look at the suggested course sequences proposed by departments for their B.A. or B.S. students and correlate this course data with the courses' locations and times found at <a href="http://courses.illinois.edu" target="_blank">courses.illinois.edu</a>.</p>
+        <p>In practice, we look at a variety of different students' actual schedules and paths about campus and try to infer any deviations that they may take from the suggested sequences. Perhaps they are doing a minor, or they don't go to class, or they decide to take things slow.</p>
+      </div>
     </div>
-    <script src="https://code.jquery.com/jquery-2.2.1.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-    <script src="script.js"></script>
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAKo2c7zAuSMQMJEpsh0oNOtF9LPJURkBY&callback=initMap"></script>
+    <div class="row">
+      <div class="col-md-12">
+        <ul class="nav nav-tabs" id="tabs">
+          <li role="presentation" class="active"><a href="#" onclick="showSuggested()">Suggested</a></li>
+          <li role="presentation"><a href="#" onclick="showActual()">Actual</a></li>
+        </ul>
+      </div>
+    </div>
+    <br/>
+    <div class="row">
+      <div class="col-md-12">
+        <form class="form-inline">
+          <div class="form-group">
+            <label for="year">Year</label>
+            <select class="form-control" name="year" id="year" onchange="getSuggested()">
+              <option value="1">Freshman</option>
+              <option value="2">Sophomore</option>
+              <option value="3">Junior</option>
+              <option value="4">Senior</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="semester">Semester</label>
+            <select class="form-control" name="semester" id="semester" onchange="getSuggested()">
+              <option value="F">Fall</option>
+              <option value="S">Spring</option>
+            </select>
+          </div>
+          <div id="suggested-major-select" class="form-group">
+            <label for="major">Major</label>
+            <select class="form-control" name="major" id="major" onchange="getSuggested()">
+              <option value="cs">Computer Science</option>
+              <option value="ce">Computer Engineering</option>
+              <option value="ee">Electrical Engineering</option>
+              <option value="act">Actuarial Science</option>
+            </select>
+          </div>
+          <div id="user-major-select" class="form-group hide">
+            <label for="user-major">Major</label>
+            <select class="form-control" name="user-major" id="user-major" onchange="getSuggested()">
+            </select>
+          </div>
+          <!-- TODO: make range slider for user data -->
+          <div class="form-group">
+            <label for="time">Day of the Week</label>
+            <input type="range" value="1" min="1", max="5" step="1" oninput="showDay(value)" id="day" onchange="getSuggested()"></input>
+          </div>
+          <div class="form-group">
+            <span id="currentDay"></span>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div id="suggested" class="row">
+      <div class="col-md-8">
+        <div id="map"></div>
+      </div>
+      <div class="col-md-4">
+        <p>Sample Schedule</p>
+        <ul id="schedule" class="list-group">
+        </ul>
+      </div>
+    </div>
+    <div id="actual" class="row">
+      <div class="col-md-8">
+        <div id="user-map"></div>
+      </div>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-2.2.1.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <script src="script.js"></script>
+  <script src="./vendor/moment.min.js"></script>
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAKo2c7zAuSMQMJEpsh0oNOtF9LPJURkBY&callback=initMap"></script>
 </body>
 </html>

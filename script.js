@@ -3,12 +3,25 @@ var userMap;
 
 var rectangles = {};
 
-var daysOfTheWeek = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'];
-var days = ['M', 'T', 'W', 'R', 'F'];
+var daysOfTheWeek = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
+var days = ['M', 'T', 'W', 'R', 'F', 'S', 'U'];
 
 function showDay(value) {
   $('#currentDay').text(daysOfTheWeek[value-1]);
   getSuggested();
+}
+
+function showDayUser(value) {
+  $('#currentDayUser').text(daysOfTheWeek[value-1]);
+}
+
+function showTimeUser(value) {
+  var hour = Math.floor(value / 2) % 12;
+  if (hour === 0)
+    hour = 12;
+  var minute = value % 2 === 1 ? "30" : "00";
+  var ampm = value >= 24 ? "pm" : "am";
+  $('#currentTimeUser').text(hour + ":" + minute + " " + ampm);
 }
 
 function parseData(data) {
@@ -89,23 +102,32 @@ function initMap() {
 
 $(document).ready(function() {
   showDay(1);
+  showDayUser(1);
+  showTimeUser(0);
+  showSuggested();
 });
 
 function showSuggested() {
-  $('#tabs a:first').tab('show')
+  $('#tabs a:first').tab('show');
   $('#actual').removeClass('inline-block').addClass('hide');
-  $('#suggested').removeClass('hide').addClass('inline-block');
+  $('#suggested').removeClass('hide').addClass('block');
   $('#user-major-select').removeClass('inline-block').addClass('hide');
+  $('#user-week-select').removeClass('inline-block').addClass('hide');
+  $('#user-day-select').removeClass('inline-block').addClass('hide');
   $('#suggested-major-select').removeClass('hide').addClass('inline-block');
+  $('#suggested-week-select').removeClass('hide').addClass('inline-block');
   initializeRectangles();
 }
 
 function showActual() {
-  $('#tabs a:last').tab('show')
-  $('#suggested').removeClass('inline-block').addClass('hide');
+  $('#tabs a:last').tab('show');
+  $('#suggested').removeClass('block').addClass('hide');
   $('#actual').removeClass('hide').addClass('inline-block');
   $('#suggested-major-select').removeClass('inline-block').addClass('hide');
+  $('#suggested-week-select').removeClass('inline-block').addClass('hide');
   $('#user-major-select').removeClass('hide').addClass('inline-block');
+  $('#user-week-select').removeClass('hide').addClass('inline-block');
+  $('#user-day-select').removeClass('hide').addClass('inline-block');
   initMapActual();
 }
 
@@ -134,7 +156,7 @@ function initializeActual() {
 function getUserDataByMajor(data, majors, callback) {
   data = data.filter(function(person) {
     return person && (majors.indexOf(person.major) !== -1);
-  })
+  });
   callback(data);
 }
 

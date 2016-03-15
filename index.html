@@ -56,16 +56,29 @@
           </div>
           <div id="user-major-select" class="form-group hide">
             <label for="user-major">Major</label>
-            <select class="form-control" name="user-major" id="user-major" onchange="getSuggested()">
+            <select class="form-control" name="user-major" id="user-major" onchange="displayActual()">
             </select>
           </div>
-          <!-- TODO: make range slider for user data -->
-          <div class="form-group">
-            <label for="time">Day of the Week</label>
-            <input type="range" value="1" min="1", max="5" step="1" oninput="showDay(value)" id="day" onchange="getSuggested()"></input>
+          <div class="form-group" id="suggested-week-select">
+            <label for="day">Day of the Week</label>
+            <input name="day" type="range" value="1" min="1" max="5" step="1" oninput="showDay(value)" id="day" onchange="getSuggested()"></input>
+            <div>
+              <span id="currentDay"></span>
+            </div>
           </div>
-          <div class="form-group">
-            <span id="currentDay"></span>
+          <div class="form-group hide" id="user-week-select">
+            <label for="user-week">Day of the Week</label>
+            <input name="user-week" type="range" value="1" min="1" max="7" step="1" oninput="showDayUser(value)" id="user-week" onchange=""></input>
+            <div>
+              <span id="currentDayUser"></span>
+            </div>
+          </div>
+          <div class="form-group hide" id="user-day-select">
+            <label for="user-day">Time of Day</label>
+            <input name="user-week" type="range" value="0" min="0" max="47" step="1" oninput="showTimeUser(value)" id="user-day" onchange=""></input>
+            <div>
+              <span id="currentTimeUser"></span>
+            </div>
           </div>
         </form>
       </div>
@@ -81,7 +94,7 @@
       </div>
     </div>
     <div id="actual" class="row">
-      <div class="col-md-8">
+      <div class="col-md-12">
         <div id="user-map"></div>
       </div>
     </div>

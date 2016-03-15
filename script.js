@@ -15,6 +15,7 @@ function showDay(value) {
 
 function showDayUser(value) {
   $('#currentDayUser').text(daysOfTheWeek[value]);
+  updatePoints();
 }
 
 function showTimeUser(value) {
@@ -24,6 +25,7 @@ function showTimeUser(value) {
   var minute = value % 2 === 1 ? "30" : "00";
   var ampm = value >= 24 ? "pm" : "am";
   $('#currentTimeUser').text(hour + ":" + minute + " " + ampm);
+  updatePoints();
 }
 
 function parseData(data) {
@@ -105,14 +107,15 @@ function initMap() {
 $(document).ready(function() {
   showDay(1);
   showDayUser(0);
-  showTimeUser(0);
+  //showTimeUser(0);
   showSuggested();
 
   $('#year').change(updatePoints);
   $('#semester').change(updatePoints);
 
   $('#user-major').change(updatePoints);
-
+  $('#user-week').change(updatePoints);
+  //$('#user-day').change(updatePoints);
 });
 
 function showSuggested() {
@@ -191,39 +194,48 @@ function getTime(timestamp) {
 function updatePoints() {
   if (binnedData) getUserDataByMajor(binnedData, $('#user-major').val(), displayActual);
   else {
-    console.log('else in updatePoints')
+    console.log('else in updatePoints');
     // initializeActual();
+    $.getJSON('./data/glh_parsed/merged_user_data_binned_limit_500.json', function(data) {
+      binnedData = data;
+      getUserDataByMajor(binnedData, $('#user-major').val(), displayActual);
+    });
   }
 }
 
 function displayActual(data) {
   var bin = getBinFromDropdowns();
 
-  // clear circles from other semesters 
-  userDataPoints.forEach(function(point) {
-    point.setMap(null)
-  })
+  // clear circles from other semesters
+  //userDataPoints.forEach(function(point) {
+    //point.setMap(null);
+  //});
+  userDataPoints = [];
 
   data.forEach(function(user, index) {
     // using a smaller subset of data because otherwise chrome crashes
     user.semesterBins[bin].slice(0, 500).forEach(function(point) {
-      var loc = {
-        lat: point.lat,
-        lng: point.lon
+      var day = getDayOfWeek(point.timestamp);
+      var time = getTime(point.timestamp);
+      if ($('#user-week').val() === day) {
+        var loc = {
+          lat: point.lat,
+          lng: point.lon
+        };
+        var p = new google.maps.Circle({
+          strokeColor: '#FF0000',
+          strokeOpacity: 0.1,
+          strokeWeight: 2,
+          fillColor: '#FF0000',
+          fillOpacity: 0.1,
+          map: userMap,
+          center: loc,
+          radius: 10
+        });
+        userDataPoints.push(p);
       }
-      var p = new google.maps.Circle({
-        strokeColor: '#FF0000',
-        strokeOpacity: 0.1,
-        strokeWeight: 2,
-        fillColor: '#FF0000',
-        fillOpacity: 0.1,
-        map: userMap,
-        center: loc,
-        radius: 10
-      });
-      userDataPoints.push(p)
-    })    
-  })
+    });
+  });
 }
 
 function setUserMajors(data, callback) {

@@ -2,6 +2,7 @@ var map;
 var userMap;
 var binnedData;
 var allMajors;
+var userLocations;
 
 var rectangles = {};
 
@@ -109,6 +110,7 @@ $(document).ready(function() {
   showDayUser(0);
   //showTimeUser(0);
   showSuggested();
+  initializeActual();
 
   $('#year').change(updatePoints);
   $('#semester').change(updatePoints);
@@ -161,7 +163,18 @@ function initializeActual() {
     var year = $('#year').val();
     var semester = $('#semester').val();
     var major = $('#major').val();
-    setUserMajors(data, getUserDataByMajor);
+    $.getJSON('./data/cs467group12map-export-v2.json', function(d) {
+      for (var id in d.data) {
+        if (d.data[id].type === 'user') {
+          d.data[id].id = id;
+          data.push(d.data[id]);
+        }
+      }
+      setUserMajors(data, getUserDataByMajor);
+    });
+  });
+  $.getJSON('./data/newlocations.json', function(locs) {
+    userLocations = locs.userlocations;
   });
 }
 
@@ -194,12 +207,7 @@ function getTime(timestamp) {
 function updatePoints() {
   if (binnedData) getUserDataByMajor(binnedData, $('#user-major').val(), displayActual);
   else {
-    console.log('else in updatePoints');
-    // initializeActual();
-    $.getJSON('./data/glh_parsed/merged_user_data_binned_limit_2000.json', function(data) {
-      binnedData = data;
-      getUserDataByMajor(binnedData, $('#user-major').val(), displayActual);
-    });
+    initializeActual();
   }
 }
 
@@ -213,27 +221,49 @@ function displayActual(data) {
   userDataPoints = [];
   data.forEach(function(user, index) {
     // using a smaller subset of data because otherwise chrome crashes
-    user.semesterBins[bin].slice(0, 2000).forEach(function(point) {
-      var day = getDayOfWeek(point.timestamp);
-      if (parseInt($('#user-week').val()) === day) {
-        var loc = {
-          lat: point.lat,
-          lng: point.lon
-        };
-        var p = new google.maps.Circle({
-          strokeColor: '#0000FF',
-          strokeOpacity: 0.1,
-          strokeWeight: 2,
-          fillColor: '#0000FF',
-          fillOpacity: 0.1,
-          map: userMap,
-          center: loc,
-          radius: 10
-        });
-        userDataPoints.push(p);
+    if (user.type === 'google') {
+      user.semesterBins[bin].slice(0, 2000).forEach(function(point) {
+        var day = getDayOfWeek(point.timestamp);
+        if (parseInt($('#user-week').val()) === day) {
+          var loc = {
+            lat: point.lat,
+            lng: point.lon
+          };
+          var p = new google.maps.Circle({
+            strokeColor: '#0000FF',
+            strokeOpacity: 0.1,
+            strokeWeight: 2,
+            fillColor: '#0000FF',
+            fillOpacity: 0.2,
+            map: userMap,
+            center: loc,
+            radius: 15
+          });
+          userDataPoints.push(p);
+        }
+      });
+    } else if (user.type === 'user' && user.locations !== 'undefined') {
+      for (var id in user.locations) {
+        var day = new Date(user.locations[id].start._i).getDay();
+        if (day === parseInt($('#user-week').val())) {
+          var loc = {
+            lat: userLocations[user.id][user.locations[id].location].lat,
+            lng: userLocations[user.id][user.locations[id].location].lon
+          };
+          var p = new google.maps.Circle({
+            strokeColor: '#0000FF',
+            strokeOpacity: 0.1,
+            strokeWeight: 2,
+            fillColor: '#0000FF',
+            fillOpacity: 0.2,
+            map: userMap,
+            center: loc,
+            radius: 10
+          });
+          userDataPoints.push(p);
+        }
       }
-    });
-    console.log(userDataPoints.length);
+    }
   });
 }
 

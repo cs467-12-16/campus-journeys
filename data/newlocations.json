@@ -1,0 +1,250 @@
+{
+    "userlocations": {
+         "KMFLFGDLFHJELoG": {
+             "Mechanical Engineering Buliding": {
+                 "lat": 40.111097,
+                 "lon": -88.225148
+             },
+             "Union": {
+                 "lat": 40.109559,
+                 "lon": -88.227191
+             },
+             "Gregory Hall": {
+                 "lat": 40.106204,
+                 "lon": -88.228073
+             },
+             "Altgeld Hall": {
+                 "lat": 40.109588,
+                 "lon": -88.228389
+             },
+             "Ceramics Building": {
+                 "lat": 40.111911,
+                 "lon": -88.224252
+             }
+         },
+         "rDtFyLrKt5wvtDD": {
+             "Siebel Center": {
+                 "lat": 40.114057,
+                 "lon": -88.224927
+             },
+             "Digital Computer Laboratory": {
+                 "lat": 40.113171,
+                 "lon": -88.226629
+             },
+             "Home": {
+                 "lat": 40.114057,
+                 "lon": -88.224927
+             },
+             "Digital Computer Library": {
+                 "lat": 40.113171,
+                 "lon": -88.226629
+             }
+         },
+         "6yyr8LEGFzCyurt": {
+             "BIF": {
+                 "lat": 40.103715,
+                 "lon": -88.230940
+             }
+         },
+         "EGEJGCE5KtFtH2K": {
+             "Transportation Building": {
+                 "lat": 40.111705,
+                 "lon": -88.225208
+             },
+             "Armory": {
+                 "lat": 40.104681,
+                 "lon": -88.232032
+             },
+             "Krannert": {
+                 "lat": 40.107998,
+                 "lon": -88.222496
+             },
+             "Gregory Hall": {
+                 "lat": 40.105949,
+                 "lon": -88.228062
+             },
+             "Champaign": {
+                 "lat": 40.109329,
+                 "lon": -88.227223
+             },
+             "MEB": {
+                 "lat": 40.111097,
+                 "lon": -88.225148
+             },
+             "Ceramics Building": {
+                 "lat": 40.111911,
+                 "lon": -88.224252
+             },
+             "Urbana": {
+                 "lat": 40.110859,
+                 "lon": -88.209454
+             },
+             "Einstein Bagels (University Ave)": {
+                 "lat": 40.116159,
+                 "lon": -88.219603
+             },
+             "CRCE": {
+                 "lat": 40.104760,
+                 "lon": -88.221919
+             },
+             "MEL": {
+                 "lat": 40.111097,
+                 "lon": -88.225148
+             },
+             "Loomis": {
+                 "lat": 40.110898,
+                 "lon": -88.223363
+             }
+         },
+         "EqG8o3nDDMoHr8M": {
+             "English Building": {
+                 "lat": 40.107573,
+                 "lon": -88.228172
+             },
+             "Siebel": {
+                 "lat": 40.114057,
+                 "lon": -88.224927
+             },
+             "Grainger": {
+                 "lat": 40.112508,
+                 "lon": -88.226906
+             },
+             "DCL": {
+                 "lat": 40.113171,
+                 "lon": -88.226629
+             },
+             "Legends": {
+                 "lat": 40.110575,
+                 "lon": -88.231125
+             },
+             "Champaign": {
+                 "lat": 40.109559,
+                 "lon": -88.227191
+             },
+             "Green Street": {
+                 "lat": 40.110231,
+                 "lon": -88.237045
+             },
+             "Math Library": {
+                 "lat": 40.109588,
+                 "lon": -88.228389
+             }
+         },
+         "x9uIzrvyvrnw1Ep": {
+             "Siebel Center": {
+                 "lat": 40.114057,
+                 "lon": -88.224927
+             },
+             "Loomis": {
+                 "lat": 40.110898,
+                 "lon": -88.223363
+             },
+             "ECEB": {
+                 "lat": 40.114773,
+                 "lon": -88.228037
+             },
+             "DCL": {
+                 "lat": 40.113171,
+                 "lon": -88.226629
+             }
+         },
+         "2yMoLsFqxJHxCru": {
+             "Beckman Institution": {
+                 "lat": 40.115749,
+                 "lon": -88.227464
+             },
+             "Roger Adams Lab": {
+                 "lat": 40.107469,
+                 "lon": -88.224812
+             },
+             "Chemical Life Sciences": {
+                 "lat": 40.107753,
+                 "lon": -88.224484
+             },
+             "Foellinger Auditorium": {
+                 "lat": 40.105927,
+                 "lon": -88.227276
+             },
+             "Burrill Hall": {
+                 "lat": 40.109145,
+                 "lon": -88.224847
+             },
+             "Psychology Building": {
+                 "lat": 40.107476,
+                 "lon": -88.229956
+             }
+         },
+         "vMpqJsGMwuHJqEs": {
+             "Asian American Cultural Center": {
+                 "lat": 40.106404,
+                 "lon": -88.224756
+             },
+             "Ceramics Building": {
+                 "lat": 40.111911,
+                 "lon": -88.224252
+             },
+             "Social Work Building": {
+                 "lat": 40.106413,
+                 "lon": -88.221059
+             },
+             "Lincoln  Hall": {
+                 "lat": 40.106622,
+                 "lon": -88.228207
+             },
+             "LLS Building": {
+                 "lat": 40.106682,
+                 "lon": -88.224837
+             }
+         },
+         "G3xuwI5swHDqI9s": {
+             "Engineering Sciences Building ": {
+                 "lat": 40.112430,
+                 "lon": -88.223049
+             },
+             "Materials Research Laboratory ": {
+                 "lat": 40.111631,
+                 "lon": -88.223136
+             },
+             "Noyes": {
+                 "lat": 40.108349,
+                 "lon": -88.226258
+             },
+             "Roger Adams Lab": {
+                 "lat": 40.107469,
+                 "lon": -88.224812
+             },
+             "Engineering Sciences Lab": {
+                 "lat": 40.112430,
+                 "lon": -88.223049
+             },
+             "English Building ": {
+                 "lat": 40.107573,
+                 "lon": -88.228172
+             },
+             "Noyes ": {
+                 "lat": 40.108349,
+                 "lon": -88.226258
+             },
+             "Materials Research Lab ": {
+                 "lat": 40.111631,
+                 "lon": -88.223136
+             },
+             "McKinley ": {
+                 "lat": 40.102775,
+                 "lon": -88.219928
+             },
+             "Engineering Sciences ": {
+                 "lat": 40.112430,
+                 "lon": -88.223049
+             },
+             "Davenport ": {
+                 "lat": 40.107273,
+                 "lon": -88.226119
+             },
+             "Materials Research Lab": {
+                 "lat": 40.111631,
+                 "lon": -88.223136
+             }
+         }
+    }
+}

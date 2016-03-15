@@ -165,7 +165,7 @@ function initializeActual() {
     var major = $('#major').val();
     $.getJSON('./data/cs467group12map-export-v2.json', function(d) {
       for (var id in d.data) {
-        if (d.data[id].type === 'user') {
+        if (d.data[id].type === 'user' && d.data[id].locations !== 'undefined') {
           d.data[id].id = id;
           data.push(d.data[id]);
         }
@@ -258,7 +258,7 @@ function displayActual(data) {
             fillOpacity: 0.2,
             map: userMap,
             center: loc,
-            radius: 10
+            radius: 15
           });
           userDataPoints.push(p);
         }

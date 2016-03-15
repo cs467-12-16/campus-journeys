@@ -153,7 +153,7 @@ function initMapActual() {
 }
 
 function initializeActual() {
-  $.getJSON('./data/glh_parsed/merged_user_data_binned_limit_1000.json', function(data) {
+  $.getJSON('./data/glh_parsed/merged_user_data_binned_limit_2000.json', function(data) {
     binnedData = data;
     var year = $('#year').val();
     var semester = $('#semester').val();
@@ -206,7 +206,7 @@ function displayActual(data) {
 
   data.forEach(function(user, index) {
     // using a smaller subset of data because otherwise chrome crashes
-    user.semesterBins[bin].slice(0, 1000).forEach(function(point) {
+    user.semesterBins[bin].slice(0, 2000).forEach(function(point) {
       var loc = {
         lat: point.lat,
         lng: point.lon

@@ -196,7 +196,7 @@ function updatePoints() {
   else {
     console.log('else in updatePoints');
     // initializeActual();
-    $.getJSON('./data/glh_parsed/merged_user_data_binned_limit_500.json', function(data) {
+    $.getJSON('./data/glh_parsed/merged_user_data_binned_limit_1000.json', function(data) {
       binnedData = data;
       getUserDataByMajor(binnedData, $('#user-major').val(), displayActual);
     });
@@ -207,26 +207,24 @@ function displayActual(data) {
   var bin = getBinFromDropdowns();
 
   // clear circles from other semesters
-  //userDataPoints.forEach(function(point) {
-    //point.setMap(null);
-  //});
+  userDataPoints.forEach(function(point) {
+    point.setMap(null);
+  });
   userDataPoints = [];
-  console.log(data);
   data.forEach(function(user, index) {
     // using a smaller subset of data because otherwise chrome crashes
     user.semesterBins[bin].slice(0, 1000).forEach(function(point) {
       var day = getDayOfWeek(point.timestamp);
-      var time = getTime(point.timestamp);
-      if ($('#user-week').val() === day) {
+      if (parseInt($('#user-week').val()) === day) {
         var loc = {
           lat: point.lat,
           lng: point.lon
         };
         var p = new google.maps.Circle({
-          strokeColor: '#FF0000',
+          strokeColor: '#0000FF',
           strokeOpacity: 0.1,
           strokeWeight: 2,
-          fillColor: '#FF0000',
+          fillColor: '#0000FF',
           fillOpacity: 0.1,
           map: userMap,
           center: loc,
@@ -235,6 +233,7 @@ function displayActual(data) {
         userDataPoints.push(p);
       }
     });
+    console.log(userDataPoints.length);
   });
 }
 

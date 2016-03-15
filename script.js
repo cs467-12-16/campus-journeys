@@ -156,7 +156,7 @@ function initMapActual() {
 }
 
 function initializeActual() {
-  $.getJSON('./data/glh_parsed/merged_user_data_binned_limit_1000.json', function(data) {
+  $.getJSON('./data/glh_parsed/merged_user_data_binned_limit_2000.json', function(data) {
     binnedData = data;
     var year = $('#year').val();
     var semester = $('#semester').val();
@@ -196,7 +196,7 @@ function updatePoints() {
   else {
     console.log('else in updatePoints');
     // initializeActual();
-    $.getJSON('./data/glh_parsed/merged_user_data_binned_limit_1000.json', function(data) {
+    $.getJSON('./data/glh_parsed/merged_user_data_binned_limit_2000.json', function(data) {
       binnedData = data;
       getUserDataByMajor(binnedData, $('#user-major').val(), displayActual);
     });
@@ -213,7 +213,7 @@ function displayActual(data) {
   userDataPoints = [];
   data.forEach(function(user, index) {
     // using a smaller subset of data because otherwise chrome crashes
-    user.semesterBins[bin].slice(0, 1000).forEach(function(point) {
+    user.semesterBins[bin].slice(0, 2000).forEach(function(point) {
       var day = getDayOfWeek(point.timestamp);
       if (parseInt($('#user-week').val()) === day) {
         var loc = {

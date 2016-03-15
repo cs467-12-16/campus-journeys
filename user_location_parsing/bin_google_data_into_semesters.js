@@ -10,7 +10,7 @@ import moment from 'moment'
 
 
 const filepath = './data/glh_parsed/merged_user_data.json'
-const writepath = './data/glh_parsed/merged_user_data_binned_limit_1000.json'
+const writepath = './data/glh_parsed/merged_user_data_binned_limit_2000.json'
 createBins(filepath, writepath)
 
 
@@ -37,7 +37,7 @@ function createBins(filepath, writepath) {
           semesterBins[i] = []
         }
 
-        const sample = googleLocationData.slice(0, 500)
+        // const sample = googleLocationData.slice(0, 500)
 
         let binCount = {}
         for (let i of range(0, 8)) {
@@ -50,7 +50,7 @@ function createBins(filepath, writepath) {
           timestamp = parseInt(timestamp)
 
           const bin = getBin(timestamp, year)
-          if (range(0, 8).includes(bin) && binCount[bin] <= 1000) {
+          if (range(0, 8).includes(bin) && binCount[bin] <= 2000) {
             semesterBins[bin].push(point)
             binCount[bin]++
             // console.log('count', count)

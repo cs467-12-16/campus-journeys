@@ -156,7 +156,7 @@ function initMapActual() {
 }
 
 function initializeActual() {
-  $.getJSON('./data/glh_parsed/merged_user_data_binned_limit_500.json', function(data) {
+  $.getJSON('./data/glh_parsed/merged_user_data_binned_limit_1000.json', function(data) {
     binnedData = data;
     var year = $('#year').val();
     var semester = $('#semester').val();
@@ -211,10 +211,10 @@ function displayActual(data) {
     //point.setMap(null);
   //});
   userDataPoints = [];
-
+  console.log(data);
   data.forEach(function(user, index) {
     // using a smaller subset of data because otherwise chrome crashes
-    user.semesterBins[bin].slice(0, 500).forEach(function(point) {
+    user.semesterBins[bin].slice(0, 1000).forEach(function(point) {
       var day = getDayOfWeek(point.timestamp);
       var time = getTime(point.timestamp);
       if ($('#user-week').val() === day) {

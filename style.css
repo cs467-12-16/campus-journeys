@@ -1,4 +1,16 @@
-#map {
-    width: 100%;
-    min-height:700px;
+#map, #user-map {
+  width: 700px;
+  min-height:700px;
+}
+
+.hide {
+  display: none;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.block {
+  display: block;
 }

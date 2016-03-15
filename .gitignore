@@ -1,0 +1,4 @@
+node_modules
+dist
+data/google_location_histories
+.DS_Store

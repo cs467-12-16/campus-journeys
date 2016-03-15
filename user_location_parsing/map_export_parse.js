@@ -40,7 +40,8 @@ function handleFile(file, callback) {
     const needToTrim = './data/glh_parsed/out-'
     const user = file.slice(file.indexOf(needToTrim) + needToTrim.length, file.indexOf('.json'))
 
-    const userDataFilepath = './data/cs467group12map-export.json'
+    // const userDataFilepath = './data/cs467group12map-export.json'
+    const userDataFilepath = './data/cs467group12map-export-v2.json'
 
     read(userDataFilepath, (err, result) => {
       result = JSON.parse(result).data

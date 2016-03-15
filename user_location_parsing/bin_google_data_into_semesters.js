@@ -10,7 +10,7 @@ import moment from 'moment'
 
 
 const filepath = './data/glh_parsed/merged_user_data.json'
-const writepath = './data/glh_parsed/merged_user_data_binned.json'
+const writepath = './data/glh_parsed/merged_user_data_binned_limit_500.json'
 createBins(filepath, writepath)
 
 
@@ -37,10 +37,10 @@ function createBins(filepath, writepath) {
           semesterBins[i] = []
         }
 
-        const sample = googleLocationData.slice(0, 10)
+        const sample = googleLocationData.slice(0, 500)
 
-        // sample.forEach(point => {
-        googleLocationData.forEach(point => {
+        // googleLocationData.forEach(point => {
+        sample.forEach(point => {
           let { timestamp } = point
           timestamp = parseInt(timestamp)
 

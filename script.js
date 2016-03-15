@@ -1,6 +1,7 @@
 var map;
 var userMap;
 var binnedData;
+var allMajors;
 
 var rectangles = {};
 
@@ -109,6 +110,9 @@ $(document).ready(function() {
 
   $('#year').change(updatePoints);
   $('#semester').change(updatePoints);
+
+  $('#user-major').change(updatePoints);
+
 });
 
 function showSuggested() {
@@ -149,7 +153,7 @@ function initMapActual() {
 }
 
 function initializeActual() {
-  $.getJSON('./data/glh_parsed/merged_user_data_binned.json', function(data) {
+  $.getJSON('./data/glh_parsed/merged_user_data_binned_limit_500.json', function(data) {
     binnedData = data;
     var year = $('#year').val();
     var semester = $('#semester').val();
@@ -158,9 +162,9 @@ function initializeActual() {
   });
 }
 
-function getUserDataByMajor(data, majors, callback) {
+function getUserDataByMajor(data, major, callback) {
   data = data.filter(function(person) {
-    return person && (majors.indexOf(person.major) !== -1);
+    return person && (major === person.major);
   });
   callback(data);
 }
@@ -185,7 +189,11 @@ function getTime(timestamp) {
 }
 
 function updatePoints() {
-  displayActual(binnedData);
+  if (binnedData) getUserDataByMajor(binnedData, $('#user-major').val(), displayActual);
+  else {
+    console.log('else in updatePoints')
+    // initializeActual();
+  }
 }
 
 function displayActual(data) {
@@ -198,7 +206,7 @@ function displayActual(data) {
 
   data.forEach(function(user, index) {
     // using a smaller subset of data because otherwise chrome crashes
-    user.semesterBins[bin].slice(0, 4000).forEach(function(point) {
+    user.semesterBins[bin].slice(0, 500).forEach(function(point) {
       var loc = {
         lat: point.lat,
         lng: point.lon
@@ -226,13 +234,16 @@ function setUserMajors(data, callback) {
   var $majorSelect = $('#user-major');
   $majorSelect.empty();
   majors = removeDuplicates(majors);
+
+  allMajors = majors;
+
   majors.forEach(function(major) {
     if (major) {
       var $option = '<option value="' + major + '">' + major + '</option>';
       $majorSelect.append($option);
     }
   });
-  callback(data, majors, displayActual);
+  callback(data, $majorSelect.val(), displayActual);
 }
 
 function removeDuplicates(array) {

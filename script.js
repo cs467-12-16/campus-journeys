@@ -162,13 +162,13 @@ function getUserDataByMajor(data, majors, callback) {
 
 // returns between 0 and 6 the day of the week - 0 = Sunday, 6 = Saturday - corresponds with the arrays above
 function getDayOfWeek(timestamp) {
-  var date = new Date(timestamp);
+  var date = new Date(parseFloat(timestamp));
   return date.getDay();
 }
 
 // returns between 0 and 47 the half hour we are referring to - corresponds with the time slider
 function getTime(timestamp) {
-  var date = new Date(timestamp);
+  var date = new Date(parseFloat(timestamp));
   var hour = date.getHours(); // between 0 and 23
   var minute = date.getMinutes(); // between 0 and 59
   var isA30 = minute >= 30 ? true : false;

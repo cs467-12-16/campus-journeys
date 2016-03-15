@@ -3,16 +3,16 @@ var userMap;
 
 var rectangles = {};
 
-var daysOfTheWeek = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
-var days = ['M', 'T', 'W', 'R', 'F', 'S', 'U'];
+var daysOfTheWeek = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+var days = ['U', 'M', 'T', 'W', 'R', 'F', 'S'];
 
 function showDay(value) {
-  $('#currentDay').text(daysOfTheWeek[value-1]);
+  $('#currentDay').text(daysOfTheWeek[value]);
   getSuggested();
 }
 
 function showDayUser(value) {
-  $('#currentDayUser').text(daysOfTheWeek[value-1]);
+  $('#currentDayUser').text(daysOfTheWeek[value]);
 }
 
 function showTimeUser(value) {
@@ -38,7 +38,7 @@ function parseData(data) {
           for (var i = 0; i < classes.length; i++) {
             c = classes[i];
             $('#schedule').append('<li class="list-group-item">' + c.section + ' ' + c.number + '</li>');
-            var day = days[$('#day').val() - 1];
+            var day = days[$('#day').val()];
             if (c.locations !== undefined && c.locations[day] !== undefined) {
               for (var cl in c.locations[day]) {
                 var place = c.locations[day][cl].place;
@@ -102,7 +102,7 @@ function initMap() {
 
 $(document).ready(function() {
   showDay(1);
-  showDayUser(1);
+  showDayUser(0);
   showTimeUser(0);
   showSuggested();
 });
@@ -158,6 +158,25 @@ function getUserDataByMajor(data, majors, callback) {
     return person && (majors.indexOf(person.major) !== -1);
   });
   callback(data);
+}
+
+// returns between 0 and 6 the day of the week - 0 = Sunday, 6 = Saturday - corresponds with the arrays above
+function getDayOfWeek(timestamp) {
+  var date = new Date(timestamp);
+  return date.getDay();
+}
+
+// returns between 0 and 47 the half hour we are referring to - corresponds with the time slider
+function getTime(timestamp) {
+  var date = new Date(timestamp);
+  var hour = date.getHours(); // between 0 and 23
+  var minute = date.getMinutes(); // between 0 and 59
+  var isA30 = minute >= 30 ? true : false;
+  var timeIndex = hour * 2;
+  if (isA30) {
+    timeIndex += 1;
+  }
+  return timeIndex;
 }
 
 function displayActual(data) {

@@ -1,5 +1,6 @@
 var map;
 var userMap;
+var binnedData;
 
 var rectangles = {};
 
@@ -105,6 +106,9 @@ $(document).ready(function() {
   showDayUser(0);
   showTimeUser(0);
   showSuggested();
+
+  $('#year').change(updatePoints);
+  $('#semester').change(updatePoints);
 });
 
 function showSuggested() {
@@ -145,7 +149,8 @@ function initMapActual() {
 }
 
 function initializeActual() {
-  $.getJSON('./data/glh_parsed/merged_user_data.json', function(data) {
+  $.getJSON('./data/glh_parsed/merged_user_data_binned.json', function(data) {
+    binnedData = data;
     var year = $('#year').val();
     var semester = $('#semester').val();
     var major = $('#major').val();
@@ -179,8 +184,38 @@ function getTime(timestamp) {
   return timeIndex;
 }
 
+function updatePoints() {
+  displayActual(binnedData);
+}
+
 function displayActual(data) {
-  console.log(data);
+  var bin = getBinFromDropdowns();
+
+  // clear circles from other semesters 
+  userDataPoints.forEach(function(point) {
+    point.setMap(null)
+  })
+
+  data.forEach(function(user, index) {
+    // using a smaller subset of data because otherwise chrome crashes
+    user.semesterBins[bin].slice(0, 4000).forEach(function(point) {
+      var loc = {
+        lat: point.lat,
+        lng: point.lon
+      }
+      var p = new google.maps.Circle({
+        strokeColor: '#FF0000',
+        strokeOpacity: 0.1,
+        strokeWeight: 2,
+        fillColor: '#FF0000',
+        fillOpacity: 0.1,
+        map: userMap,
+        center: loc,
+        radius: 10
+      });
+      userDataPoints.push(p)
+    })    
+  })
 }
 
 function setUserMajors(data, callback) {
@@ -205,4 +240,11 @@ function removeDuplicates(array) {
   return array.filter(function(element) {
     return seen.hasOwnProperty(element) ? false : (seen[element] = true);
   });
+}
+
+function getBinFromDropdowns() {
+  var yearVal = $('#year').val();
+  var semesterVal = ($('#semester').val() === 'F') ? 0 : 1;
+  var bin = yearVal * 2 + semesterVal - 2;
+  return bin;
 }

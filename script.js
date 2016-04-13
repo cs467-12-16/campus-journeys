@@ -223,7 +223,8 @@ function displayActual(data) {
   data.forEach(function(user, index) {
     // using a smaller subset of data because otherwise chrome crashes
     if (user.type === 'google') {
-      user.semesterBins[bin].slice(0, 2000).forEach(function(point) {
+      var points = user.semesterBins[bin].slice(0, 2000)
+      points.forEach(function(point) {
         var day = getDayOfWeek(point.timestamp);
         if (parseInt($('#user-week').val()) === day) {
           var loc = {

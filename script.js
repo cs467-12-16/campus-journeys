@@ -254,12 +254,22 @@ function displayActual(data) {
     heatMap = new google.maps.visualization.HeatmapLayer({
       data: userDataPoints,
       map: userMap,
-      fillOpacity: 0.5
+      fillOpacity: 0.8
     })
 
   });
+
 }
 
+function setGradient() {
+  var gradient = [
+    'rgba(255, 102, 97, 0)',
+    'rgba(255, 102, 97, 1)',
+    'rgba(255, 9, 0, 1)'
+  ]
+
+  if (heatMap) heatMap.set('gradient', gradient);
+}
 
 function setUserMajors(data, callback) {
   var majors = data.map(function(user) {

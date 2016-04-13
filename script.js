@@ -211,35 +211,28 @@ function updatePoints() {
   }
 }
 
+var heatMap;
+
 function displayActual(data) {
   var bin = getBinFromDropdowns();
 
-  // clear circles from other semesters
-  userDataPoints.forEach(function(point) {
-    point.setMap(null);
-  });
-  userDataPoints = [];
+  while(userDataPoints[0]) {
+    userDataPoints.pop()
+  }
+
   data.forEach(function(user, index) {
     // using a smaller subset of data because otherwise chrome crashes
     if (user.type === 'google') {
-      user.semesterBins[bin].slice(0, 2000).forEach(function(point) {
+      var points = user.semesterBins[bin].slice(0, 2000)
+      points.forEach(function(point) {
         var day = getDayOfWeek(point.timestamp);
         if (parseInt($('#user-week').val()) === day) {
           var loc = {
             lat: point.lat,
             lng: point.lon
           };
-          var p = new google.maps.Circle({
-            strokeColor: '#0000FF',
-            strokeOpacity: 0.1,
-            strokeWeight: 2,
-            fillColor: '#0000FF',
-            fillOpacity: 0.2,
-            map: userMap,
-            center: loc,
-            radius: 15
-          });
-          userDataPoints.push(p);
+
+          userDataPoints.push(new google.maps.LatLng(loc.lat, loc.lng))
         }
       });
     } else if (user.type === 'user' && user.locations !== 'undefined') {
@@ -250,21 +243,33 @@ function displayActual(data) {
             lat: userLocations[user.id][user.locations[id].location].lat,
             lng: userLocations[user.id][user.locations[id].location].lon
           };
-          var p = new google.maps.Circle({
-            strokeColor: '#0000FF',
-            strokeOpacity: 0.1,
-            strokeWeight: 2,
-            fillColor: '#0000FF',
-            fillOpacity: 0.2,
-            map: userMap,
-            center: loc,
-            radius: 15
-          });
-          userDataPoints.push(p);
+
+          userDataPoints.push(new google.maps.LatLng(loc.lat, loc.lng))
         }
       }
     }
+
+    // clear old heatmap
+    if (heatMap) heatMap.setMap(null)
+
+    heatMap = new google.maps.visualization.HeatmapLayer({
+      data: userDataPoints,
+      map: userMap,
+      fillOpacity: 0.8
+    })
+
   });
+
+}
+
+function setGradient() {
+  var gradient = [
+    'rgba(255, 102, 97, 0)',
+    'rgba(255, 102, 97, 1)',
+    'rgba(255, 9, 0, 1)'
+  ]
+
+  if (heatMap) heatMap.set('gradient', gradient);
 }
 
 function setUserMajors(data, callback) {

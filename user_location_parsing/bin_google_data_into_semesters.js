@@ -10,7 +10,7 @@ import moment from 'moment'
 
 
 const filepath = './data/glh_parsed/merged_user_data.json'
-const writepath = './data/glh_parsed/merged_user_data_binned_limit_2000.json'
+const writepath = './data/glh_parsed/merged_user_data_binned_limit_10000.json'
 createBins(filepath, writepath)
 
 
@@ -50,7 +50,7 @@ function createBins(filepath, writepath) {
           timestamp = parseInt(timestamp)
 
           const bin = getBin(timestamp, year)
-          if (range(0, 8).includes(bin) && binCount[bin] <= 2000) {
+          if (range(0, 8).includes(bin) && binCount[bin] <= 10000) {
             semesterBins[bin].push(point)
             binCount[bin]++
             // console.log('count', count)
